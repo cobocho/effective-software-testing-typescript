@@ -9,6 +9,7 @@ const config = {
   moduleNameMapper: {
     '@/(.*)$': '<rootDir>/src/$1',
   },
+  setupFilesAfterEnv: ['./jest.setup.ts'],
 }
 
 module.exports = config
